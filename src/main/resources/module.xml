@@ -19,11 +19,11 @@
     </resources>
 
     <dependencies>
-		<module name="javax.api" export="false">
-			<imports>
-				<include path="javax/naming"/>
-			</imports>
-		</module>
+        <module name="javax.api" export="false">
+            <imports>
+                <include path="javax/naming"/>
+            </imports>
+        </module>
         <module name="javax.jms.api" export="true"/>
     </dependencies>
 
