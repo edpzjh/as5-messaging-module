@@ -17,7 +17,7 @@ This can be done by specifying MANIFEST headers or by providing a _jboss-deploym
 directory. 
 
 Example of _jboss-deployment-strucuture.xml_:
-
+```xml
         <jboss-deployment-structure>
             <deployment>
                 <exclusions>
@@ -28,6 +28,6 @@ Example of _jboss-deployment-strucuture.xml_:
                 </dependencies>
             </deployment>
         </jboss-deployment-structure>
-        
+```        
 Above we are declaring an explicit exclusion for _javax_jms_api_ which is otherwise an [implicit dependency](https://docs.jboss.org/author/display/AS71/Implicit+module+dependencies+for+deployments).    
 And the explicit dependency is for the module that this project produces.
